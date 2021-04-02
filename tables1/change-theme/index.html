@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Theme</title>
+  </head>
+
+  <body onload="genQuote()">
+    <!-- <h1>Theme</h1> -->
+    <!-- <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis culpa rem,
+      officia eum tenetur facilis obcaecati voluptatem doloremque nisi minus
+      excepturi laudantium nostrum, aspernatur corporis. Sint, ex placeat
+      nostrum exercitationem assumenda natus maxime vitae temporibus voluptates
+      enim sequi dolorem laboriosam odit iste quam animi minus suscipit sit
+      laudantium voluptas unde? Vero, doloremque non? Est commodi sapiente
+      numquam, incidunt minima architecto rem quo. Quis natus neque consequatur
+      dignissimos, possimus, id mollitia suscipit omnis aut sapiente dolorem.
+      Distinctio molestias adipisci quis quasi, dicta amet ratione, laboriosam
+      nihil fuga explicabo eaque repudiandae alias praesentium laudantium
+      aperiam officiis itaque, maiores in voluptas blanditiis omnis.
+    </p>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis culpa rem,
+      officia eum tenetur facilis obcaecati voluptatem doloremque nisi minus
+      excepturi laudantium nostrum, aspernatur corporis. Sint, ex placeat
+      nostrum exercitationem assumenda natus maxime vitae temporibus voluptates
+      enim sequi dolorem laboriosam odit iste quam animi minus suscipit sit
+      laudantium voluptas unde? Vero, doloremque non? Est commodi sapiente
+      numquam, incidunt minima architecto rem quo. Quis natus neque consequatur
+      dignissimos, possimus, id mollitia suscipit omnis aut sapiente dolorem.
+      Distinctio molestias adipisci quis quasi, dicta amet ratione, laboriosam
+      nihil fuga explicabo eaque repudiandae alias praesentium laudantium
+      aperiam officiis itaque, maiores in voluptas blanditiis omnis.
+    </p>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis culpa rem,
+      officia eum tenetur facilis obcaecati voluptatem doloremque nisi minus
+      excepturi laudantium nostrum, aspernatur corporis. Sint, ex placeat
+      nostrum exercitationem assumenda natus maxime vitae temporibus voluptates
+      enim sequi dolorem laboriosam odit iste quam animi minus suscipit sit
+      laudantium voluptas unde? Vero, doloremque non? Est commodi sapiente
+      numquam, incidunt minima architecto rem quo. Quis natus neque consequatur
+      dignissimos, possimus, id mollitia suscipit omnis aut sapiente dolorem.
+      Distinctio molestias adipisci quis quasi, dicta amet ratione, laboriosam
+      nihil fuga explicabo eaque repudiandae alias praesentium laudantium
+      aperiam officiis itaque, maiores in voluptas blanditiis omnis.
+    </p> -->
+
+    <!-- Login Form Starts -->
+    <div class="login-page">
+      <h3>
+        Change Theme
+        <select id="theme">
+          <option value="default">Default</option>
+          <option value="night">Night</option>
+          <option value="ocean">Ocean</option>
+          <option value="fire">Fire</option>
+        </select>
+      </h3>
+      <!-- <h3>
+        Change Form Design
+        <select id="Design">
+          <option value="default">Default</option>
+          <option value="design1">design1</option>
+          <option value="design2">design2</option>
+          <option value="design3">design3</option>
+        </select>
+      </h3> -->
+      <div class="form">
+        <form class="register-form">
+          <input type="text" placeholder="name" />
+          <input type="password" placeholder="password" />
+          <input type="text" placeholder="email address" />
+          <button>create</button>
+          <p class="message">Already registered? <a href="#">Sign In</a></p>
+        </form>
+        <form class="login-form">
+          <input type="text" placeholder="username" />
+          <input type="password" placeholder="password" />
+          <button>login</button>
+          <p class="message">
+            Not registered? <a href="#">Create an account</a>
+          </p>
+        </form>
+      </div>
+    </div>
+    <!-- Ends Login Form -->
+
+
+
+    <!-- Random Quote and Time Show -->
+    <article>
+      <h1>Quote of the Day</h1>
+      <p id="quote">
+        "the people who are crazy enough to think they can change the world are
+        the ones who do." <br />
+      </p>
+      <!-- <button id="gen" onclick="genQuote()">New Quote</button> -->
+    </article>
+    <!-- Ends Random Quote and Time Show -->
+    <script src="script.js"></script>
+  </body>
+</html>
